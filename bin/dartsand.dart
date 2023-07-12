@@ -17,4 +17,5 @@ void main() {
   final stopwatch = Stopwatch()..start();
   run();
   print('\n> Done! ${stopwatch.elapsed}ms');
+  stopwatch.stop();
 }
